@@ -20,7 +20,6 @@ body {
 .center {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
     display: flex;
     justify-content: center;
 }
@@ -37,7 +36,6 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 2rem;
 }
 
 .nav {
@@ -85,11 +83,17 @@ body {
     color: #e5e7eb;
 }
 
+.padding-1 {
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
 .hero {
     width: 100vw;
     display: flex;
-    padding: 8rem 1.5rem;
     box-sizing: border-box;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 @media screen and (max-width: 768px) {
