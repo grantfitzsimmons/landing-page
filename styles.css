@@ -1,47 +1,66 @@
+:root {
+    --max-width: 1200px;
+  }
+  
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
-    align-content: center;
 }
 
 .container {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    width: 100%;
+    max-width: var(--max-width);
 }
 
-.main-content {
+.center {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.main-content { /* Centers content and adds padding */
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
+    padding: 2rem;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
 }
 
-.nav b {
+.dark-background b {
     font-size: 24px;
 }
 
-.nav ul {
+.dark-background ul {
     display: flex;
     list-style: none;
     padding: 0 1.5rem;
     gap: 1.5rem;
 }
 
-.nav li {
+.dark-background li {
     display: flex;
 }
 
-.nav a {
+.dark-background a {
     color: white;
     text-decoration: none;
 }
@@ -69,16 +88,22 @@ body {
 .hero {
     width: 100vw;
     display: flex;
-    padding: 10rem 1.5rem;
+    padding: 8rem 1.5rem;
     box-sizing: border-box;
-    gap: 3rem;
-    margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
     .hero {
         flex-wrap: wrap;
     }
+}
+
+.hero-content {
+    display: flex;
+    max-width: var(--max-width);
+    align-content: center;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .hero-text {
