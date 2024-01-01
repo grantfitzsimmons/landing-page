@@ -176,3 +176,37 @@ body {
     font-size: 36px;
     color: #1F2937;
 }
+
+.callToAction {
+    background-color: #3882F6;
+    border-radius: 1rem;
+    padding: 2rem 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+    .callToAction h2 {
+        margin-bottom: -0.5rem;
+    }
+
+    .callToAction-1 {
+        width: 75%;
+    }
+
+    .callToAction-2 {
+        display:flex;
+        width: 25%;
+        justify-content: flex-end;
+    }
+
+    .actionBtn {
+        border-color: #f0faf8;
+        color: white;
+        border-width: 5px;
+        background-color: rgba(0,0,0,0);
+        font-weight: bold;
+        font-size: medium;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        border-radius: 0.5rem;
+    }
