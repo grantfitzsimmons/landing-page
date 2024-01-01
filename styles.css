@@ -145,6 +145,11 @@ body {
     justify-content: space-between;
 }
 
+.hero-text,
+.hero-image {
+    flex-basis: 100%;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
@@ -231,5 +236,19 @@ body {
 @media screen and (max-width: 768px) {
     * {
         flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 1.5rem; /* Adjust container padding for smaller screens */
+    }
+    .nav {
+        padding: 0;
+    }
+    .callToAction {
+        padding: 2rem;
+        gap: 1rem;
     }
 }
