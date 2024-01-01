@@ -89,6 +89,10 @@ body {
 }
 
 .padding-8 {
+    padding: 8rem;
+}
+
+.padding-8-top-and-bottom {
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
@@ -198,7 +202,6 @@ body {
     }
 
     .actionBtn {
-
         color: white;
         border-style:none;
         background-color: rgba(0,0,0,0);
@@ -210,7 +213,7 @@ body {
 
     .actionBtnOutline {
         border-radius: 0.5rem;
-        border-width: 0.25em;
+        border-width: 0.15em;
         border-style: solid;
         border-color: white;
         text-align: center;
