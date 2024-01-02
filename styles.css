@@ -37,6 +37,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    padding: 0 0.5rem;
 }
 
 .dark-background b {
@@ -80,7 +81,7 @@ body {
 }
 
 .padding-1 {
-    padding: 1.5rem;
+    padding: 1.5em 2em;
     box-sizing: border-box;
 }
 
